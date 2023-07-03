@@ -1,1 +1,4 @@
 # ASL_hand_detection
+In this project, images of people signing different letters from the American Sign Language Alphabet are collected. The images are then used to extract landmarks of the poistion of the hand signing a letter. The library mediapipe is used to extract the landmarks. The landmarks are then used to train a classification model. The model has a prediction accuracy of more than 95%. For demonstration purposes, a live classification is provided where a person can sign a letter and immediately receive a classification. This demo is just for fun and does not have high accuracy. 
+
+The data points used to train the classification model are provided, the pictures of the people signing a letter of the ASL alphabet are not published. The notebooks used to create and process the images are provided so that everyone can create their own data.  
